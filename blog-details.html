@@ -1,0 +1,961 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-+qdLaIRZfNu4cVPK/PxJJEy0B0f3Ugv8i482AKY7gwXwhaCroABd086ybrVKTa0q" crossorigin="anonymous">
+<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Title -->
+    <title style="font-family:vazir;">Champai - محتوای هوش مصنوعی &amp; قالب HTML مولد تصویر</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/fav.png" type="image/x-icon">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <!-- Fontawesome Icon CSS -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+    <!-- Icomoon Icon CSS -->
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/magnific-popup.min.css">
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css">
+    <!-- Nice Select -->
+    <link rel="stylesheet" href="assets/css/vendors/nice-select.css">
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/aos.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/animate.min.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="theme-color-1">
+    <!-- Preloader start -->
+    <div id="preLoader">
+        <div class="loader"></div>
+    </div>
+    <!-- Preloader end -->
+
+    <!-- Header-area start -->
+    <header class="header-area">
+        <!-- Start mobile menu -->
+        <div class="mobile-menu">
+            <div class="container">
+                <div class="mobile-menu-wrapper"></div>
+            </div>
+        </div>
+        <!-- End mobile menu -->
+
+        <div class="main-responsive-nav">
+            <div class="container">
+                <!-- Mobile Logo -->
+                <div class="logo">
+                    <a href="index.html" target="_self" title="Champai">
+                        <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/logo/logo-1.png" alt="Brand Logo">
+                    </a>
+                </div>
+                <!-- Menu toggle button -->
+                <button class="menu-toggler" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="main-navbar">
+            <div class="header-bottom">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="index.html" target="_self" title="Champai">
+                            <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/logo/logo-1.png" alt="Brand Logo">
+                        </a>
+                        <!-- Navigation items -->
+                        <div class="collapse navbar-collapse">
+                            <ul id="mainMenu" class="navbar-nav mobile-item mx-auto">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link toggle">خانه <i class="fal fa-plus"></i></a>
+                                    <ul class="menu-dropdown">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">نمایش خانگی 1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index-2.html">نمایش خانگی 2</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index-3.html">نمایش خانگی 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">درباره</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#blogs" class="nav-link toggle">استفاده از مورد<i class="fal fa-plus"></i></a>
+                                    <ul class="menu-dropdown">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="usecase.html">استفاده از مورد 1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="usecase-2.html">استفاده از مورد 2</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="usecase-details.html">استفاده از جزئیات مورد 1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="usecase-details-2.html">استفاده از جزئیات مورد 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pricing.html">قیمت گذاری</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link toggle" href="#pages">صفحات <i class="fal fa-plus"></i></a>
+                                    <ul class="menu-dropdown">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about.html">درباره</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="testimonial.html">گواهینامه</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="pricing.html">قیمت گذاری</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="faq.html">سوالات متداول</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="login.html">ورود</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="signup.html">ثبت نام</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="404.html">خطای 404</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="coming-soon.html">به زودی</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="terms-conditions.html">شرایط و ضوابط</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#blogs" class="nav-link toggle">وبلاگ<i class="fal fa-plus"></i></a>
+                                    <ul class="menu-dropdown">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blogs.html">وبلاگ ها</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blog-details.html">جزئیات وبلاگ</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">مخاطب</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="more-option mobile-item">
+                            <div class="item">
+                                <div class="language">
+                                    <select class="niceselect">
+                                        <option value="1">انگلیسی</option>
+                                        <option value="2">چینی</option>
+                                        <option value="3">فرانسوی</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="login.html" class="btn btn-md btn-primary rounded-pill icon-end" title="Login" target="_self">
+                                    ورود
+                                    <i class="fal fa-user"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header-area end -->
+
+    <!-- Blog-details-area start -->
+    <div class="blog-details-area pt-30 header-next border-top">
+        <div class="container">
+            <!-- Blog -->
+            <article class="blog blog_lg">
+                <div class="blog_img">
+                    <div class="lazy-container ratio">
+                        <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog//blog-lg-1.jpg" alt="Blog Image">
+                    </div>
+                </div>
+                <div class="blog_content">
+                    <h3 class="blog_title mb-15" style="font-family:vazir;">
+                        تصویر هوش مصنوعی مرد ناشناس در ماسک تنفسی با کوله پشتی زرد در حال راه رفتن در زمین چمنزار
+                    </h3>
+                    <ul class="blog_list list-unstyled">
+                        <li class="icon-start font-lg">
+                            <a href="blogs.html" target="_self" title="Link" style="font-family:vazir;">
+                                <i class="fal fa-user-circle"></i>توسط ادمین
+                            </a>
+                        </li>
+                        <li class="icon-start font-lg">
+                            <a href="blogs.html" target="_self" title="Link" style="font-family:vazir;">
+                                <i class="fal fa-calendar-alt"></i>31 اوت 2023
+                            </a>
+                        </li>
+                        <li class="icon-start font-lg">
+                            <a href="blogs.html" target="_self" title="Link" style="font-family:vazir;">
+                                <i class="fal fa-tag"></i>فنی
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <div class="row justify-content-center gx-xl-5">
+                <div class="col-lg-8">
+                    <!-- Description area -->
+                    <div class="blog-description pt-50 pb-25">
+                        <div class="content">
+                            <h4 class="title" style="font-family:vazir;">
+                                مولد تصویر، جاسازی متن تولید شده توسط رمزگذار متن را می گیرد و تصویری را تولید می کند که با توضیحات مطابقت دارد.
+                            </h4>
+                            <p style="font-family:vazir;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد
+                            </p>
+                            <p style="font-family:vazir;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد
+                            </p>
+                            <blockquote class="blockquote mb-30 p-25 bg-light">
+                                <i class="fas fa-quote-left"></i>
+                                <p style="font-family:vazir;">
+                                    دیر یا زود کار شما برای خودش صحبت می کند. منتقدان ماندگار احساس می کنند که زمان زیادی طول خواهد کشید، اما شما صبورتر از آنها هستید.
+                                </p>
+                            </blockquote>
+                            <h4 class="title" style="font-family:vazir;">
+                                برای آموزش یک مدل تولید متن به تصویر، مجموعه داده بزرگی از نمونه های متن-تصویر جفت شده مورد نیاز است.
+                            </h4>
+                            <p style="font-family:vazir;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد
+                            </p>
+                            <div class="images pb-10">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="lazy-container ratio ratio-2-3 mb-20 radius-lg">
+                                            <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-lg-2.jpg" alt="Blog Image">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="lazy-container ratio ratio-2-3 mb-20 radius-lg">
+                                            <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-lg-3.jpg" alt="Blog Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="title" style="font-family:vazir;">
+                                یک رویکرد رایج برای تولید متن به تصویر از ترکیبی از تکنیک‌های NLP و بینایی کامپیوتری استفاده می‌کند.
+                            </h4>
+                            <p style="font-family:vazir;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد
+                            </p>
+                            <p style="font-family:vazir;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد
+                            </p>
+                            <div class="images pb-10">
+                                <div class="lazy-container ratio ratio-2-3 mb-20 radius-lg">
+                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-lg-4.jpg" alt="Blog Image">
+                                </div>
+                            </div>
+                            <p style="font-family:vazir;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Comments area -->
+                    <div class="comments">
+                        <h3 class="mb-20" style="font-family:vazir;">3 نظر</h3>
+                        <div class="comment-box mb-50 radius-lg">
+                            <ol class="comment-list">
+                                <li class="comment">
+                                    <div class="comment-body">
+                                        <div class="comment-author">
+                                            <div class="lazy-container ratio ratio-1-1 rounded-circle">
+                                                <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/avatar-1.jpg" alt="image">
+                                            </div>
+                                        </div>
+                                        <div class="comment-content">
+                                            <h6 class="name" style="font-family:vazir;">آدام هاول</h6>
+                                            <p style="font-family:vazir;">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد
+                                            </p>
+                                            <a href="blog-details.html" class="font-sm color-primary" target="_self" title="Reply" style="font-family:vazir;">پاسخ</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="comment">
+                                    <div class="comment-body">
+                                        <div class="comment-author">
+                                            <div class="lazy-container ratio ratio-1-1 rounded-circle">
+                                                <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/avatar-2.jpg" alt="image">
+                                            </div>
+                                        </div>
+                                        <div class="comment-content">
+                                            <h6 class="name" style="font-family:vazir;">دیوید مورفی</h6>
+                                            <p style="font-family:vazir;">
+                                                کنترل کیفیت داده های شما از جمله توزیع طول خواندن و
+                                                 ارزیابی یکنواختی در چند کلیک و مورد علاقه خود را انتخاب کنید. نام
+                                                 این Commodi accusantium nulla.
+                                            </p>
+                                            <a href="blog-details.html" class="font-sm color-primary" target="_self" title="Reply" style="font-family:vazir;">پاسخ</a>
+                                        </div>
+                                    </div>
+                                    <ol class="children">
+                                        <li class="comment">
+                                            <div class="comment-body">
+                                                <div class="comment-author">
+                                                    <div class="lazy-container ratio ratio-1-1 rounded-circle">
+                                                        <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/avatar-3.jpg" alt="image">
+                                                    </div>
+                                                </div>
+                                                <div class="comment-content">
+                                                    <h6 class="name" style="font-family:vazir;">هری جین</h6>
+                                                    <p style="font-family:vazir;">
+                                                        کنترل کیفیت داده های شما از جمله توزیع طول خواندن
+                                                         و یکنواختی را با چند کلیک ارزیابی کنید و خود را انتخاب کنید
+                                                         مورد علاقه. این را نام ببرید
+                                                    </p>
+                                                    <a href="blog-details.html" class="font-sm color-primary" target="_self" title="Reply" style="font-family:vazir;">پاسخ</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="comment-reply mb-50">
+                            <h3 class="mb-10" style="font-family:vazir;">نظر خود را ارسال کنید</h3>
+                            <p class="comment-notes" style="font-family:vazir;">
+                                <span id="email-notes" style="font-family:vazir;">آدرس ایمیل شما منتشر نخواهد شد.</span>
+                                فیلدهای الزامی مشخص شده اند
+                                <span class="required text-danger">*</span>
+                            </p>
+                            <form id="commentForm" class="comment-form">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group mb-20">
+                                            <input type="text" class="form-control" name="name" placeholder="نام*" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group mb-20">
+                                            <input type="email" class="form-control" name="email" placeholder="ایمیل*" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group mb-30">
+                                            <textarea name="message" class="form-control" placeholder="اظهار نظر" required="" rows="6"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-lg btn-primary rounded-pill" type="button" aria-label="ارسال نظر">ارسال نظر</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Latest blog start -->
+                    <div class="blog-area pb-50">
+                        <div class="section-title title-inline mb-30">
+                            <h3 class="title" style="font-family:vazir;">
+                                پست های مرتبط
+                            </h3>
+                            <a href="blogs.html" class="btn btn-md btn-primary rounded-pill" title="View More" target="_self" style="font-family:vazir;">بیشتر ببینید</a>
+                        </div>
+                        <!-- Slider main container -->
+                        <div class="swiper blog-slider" id="blog-slider-1">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <article class="card">
+                                        <div class="card_img mb-15">
+                                            <a href="blog-details.html" target="_self" title="Link" class="lazy-container ratio ratio-2-3 radius-lg">
+                                                <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-10.jpg" alt="Blog Image">
+                                            </a>
+                                        </div>
+                                        <div class="card_content">
+                                            <ul class="card_list mb-10 list-unstyled">
+                                                <li class="icon-start font-sm">
+                                                    <a href="blogs.html" target="_self" title="Link"><i class="fal fa-user" style="font-family:vazir;"></i>توسط جانی</a>
+                                                </li>
+                                                <li class="icon-start font-sm">
+                                                    <a href="blogs.html" target="_self" title="Link"><i class="fal fa-calendar-check" style="font-family:vazir;"></i>Mar 04, 2023</a>
+                                                </li>
+                                            </ul>
+                                            <h6 class="card_title font-base lc-2 mb-0" style="font-family:vazir;">
+                                                <a href="blog-details.html" target="_self" title="Link">
+                                                    هوش مصنوعی (AI) شاخه ای از علوم کامپیوتر است که بر ایجاد سیستم ها، نرم افزارها،
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="swiper-slide">
+                                    <article class="card">
+                                        <div class="card_img mb-15">
+                                            <a href="blog-details.html" target="_self" title="Link" class="lazy-container ratio ratio-2-3 radius-lg">
+                                                <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-11.jpg" alt="Blog Image">
+                                            </a>
+                                        </div>
+                                        <div class="card_content">
+                                            <ul class="card_list mb-10 list-unstyled">
+                                                <li class="icon-start font-sm">
+                                                    <a href="blogs.html" target="_self" title="Link"><i class="fal fa-user" style="font-family:vazir;"></i>توسط الکسیس</a>
+                                                </li>
+                                                <li class="icon-start font-sm">
+                                                    <a href="blogs.html" target="_self" title="Link"><i class="fal fa-calendar-check" style="font-family:vazir;"></i>11 مه 2023</a>
+                                                </li>
+                                            </ul>
+                                            <h6 class="card_title font-base lc-2 mb-0" style="font-family:vazir;">
+                                                <a href="blog-details.html" target="_self" title="Link">
+                                                    این زیر مجموعه ای از هوش مصنوعی است که شامل آموزش ماشین ها برای یادگیری از داده ها و بهبود عملکرد آنها در طول زمان می شود.
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="swiper-slide">
+                                    <article class="card">
+                                        <div class="card_img mb-15">
+                                            <a href="blog-details.html" target="_self" title="Link" class="lazy-container ratio ratio-2-3 radius-lg">
+                                                <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-12.jpg" alt="Blog Image">
+                                            </a>
+                                        </div>
+                                        <div class="card_content">
+                                            <ul class="card_list mb-10 list-unstyled">
+                                                <li class="icon-start font-sm">
+                                                    <a href="blogs.html" target="_self" title="Link"><i class="fal fa-user" style="font-family:vazir;"></i>توسط موریس</a>
+                                                </li>
+                                                <li class="icon-start font-sm">
+                                                    <a href="blogs.html" target="_self" title="Link"><i class="fal fa-calendar-check" style="font-family:vazir;"></i>08 ژوئن 2023</a>
+                                                </li>
+                                            </ul>
+                                            <h6 class="card_title font-base lc-2 mb-0" style="font-family:vazir;">
+                                                <a href="blog-details.html" target="_self" title="Link">
+                                                    شکلی تخصصی از یادگیری ماشینی که بر شبکه های عصبی با لایه های متعدد تمرکز دارد.
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="swiper-slide">
+                                    <article class="card">
+                                        <div class="card_img mb-15">
+                                            <a href="blog-details.html" target="_self" title="Link" class="lazy-container ratio ratio-2-3 radius-lg">
+                                                <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-13.jpg" alt="Blog Image">
+                                            </a>
+                                        </div>
+                                        <div class="card_content">
+                                            <ul class="card_list mb-10 list-unstyled">
+                                                <li class="icon-start font-sm">
+                                                    <a href="blogs.html" target="_self" title="Link"><i class="fal fa-user" style="font-family:vazir;"></i>توسط جانی</a>
+                                                </li>
+                                                <li class="icon-start font-sm">
+                                                    <a href="blogs.html" target="_self" title="Link"><i class="fal fa-calendar-check" style="font-family:vazir;"></i>04 مارس 2023</a>
+                                                </li>
+                                            </ul>
+                                            <h6 class="card_title font-base lc-2 mb-0" style="font-family:vazir;">
+                                                <a href="blog-details.html" target="_self" title="Link">
+                                                    برنامه های کاربردی شامل ربات های گفتگو، ترجمه زبان، تجزیه و تحلیل احساسات و خلاصه سازی متن است.
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination position-static mt-20" id="blog-slider-1-pagination"></div>
+                        </div>
+                    </div>
+                    <!-- Latest blog end -->
+                </div>
+                <div class="col-lg-4">
+                    <aside class="widget-area pb-10">
+                        <!-- Spacer -->
+                        <div class="pt-50 d-none d-lg-block"></div>
+
+                        <!-- Widget search -->
+                        <div class="widget widget-search mb-40">
+                            <div class="p-25 radius-lg bg-primary-light">
+                                <h4 class="title mb-10" style="font-family:vazir;">جستجوی پست ها</h4>
+                                <div class="search-form">
+                                    <form id="searchForm">
+                                        <div class="input-inline rounded-pill bg-white">
+                                            <input class="form-control border-0" placeholder="اینجا جستجو کنید..." type="text" name="SEARCH" required="">
+                                            <button class="btn-icon rounded-pill" type="submit" aria-label="Search button">
+                                                <i class="far fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Widget posts -->
+                        <div class="widget widget-posts mb-40">
+                            <div class="p-25 radius-lg bg-primary-light">
+                                <h4 class="title" style="font-family:vazir;">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#blogPost">
+                                        آخرین پست برتر
+                                    </button>
+                                </h4>
+                                <div id="blogPost" class="collapse show">
+                                    <div class="accordion-body mt-20 scroll-y">
+                                        <article class="blog blog-inline">
+                                            <div class="blog_img">
+                                                <a href="blog-details.html" target="_self" title="Link" class="lazy-container ratio ratio-2-3 radius-sm">
+                                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-4.jpg" alt="Blog Image">
+                                                </a>
+                                            </div>
+                                            <div class="blog_content">
+                                                <h6 class="blog_title font-base lc-2 mb-10" style="font-family:vazir;">
+                                                    <a href="blog-details.html" target="_self" title="Link">
+                                                        هوش مصنوعی شاخه ای از علوم کامپیوتر است که بر روی آن تمرکز دارد
+                                                    </a>
+                                                </h6>
+                                                <ul class="blog_list list-unstyled">
+                                                    <li class="icon-start font-sm">
+                                                        <a href="blogs.html" target="_self" title="link" style="font-family:vazir;">
+                                                            <i class="fal fa-user-circle"></i>توسط ادمین
+                                                        </a>
+                                                    </li>
+                                                    <li class="icon-start font-sm">
+                                                        <a href="blogs.html" target="_self" title="link" style="font-family:vazir;">
+                                                            <i class="fal fa-calendar-alt"></i>1 مه 2023
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </article>
+                                        <article class="blog blog-inline">
+                                            <div class="blog_img">
+                                                <a href="blog-details.html" target="_self" title="Link" class="lazy-container ratio ratio-2-3 radius-sm">
+                                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-5.jpg" alt="Blog Image">
+                                                </a>
+                                            </div>
+                                            <div class="blog_content">
+                                                <h6 class="blog_title font-base lc-2 mb-10" style="font-family:vazir;">
+                                                    <a href="blog-details.html" target="_self" title="Link" style="font-family:vazir;">
+                                                        این زیر مجموعه ای از هوش مصنوعی است که شامل آموزش ماشین ها برای یادگیری از داده ها می شود
+                                                    </a>
+                                                </h6>
+                                                <ul class="blog_list list-unstyled">
+                                                    <li class="icon-start font-sm">
+                                                        <a href="blogs.html" target="_self" title="link" style="font-family:vazir;">
+                                                            <i class="fal fa-user-circle"></i>توسط امیلی
+                                                        </a>
+                                                    </li>
+                                                    <li class="icon-start font-sm">
+                                                        <a href="blogs.html" target="_self" title="link" style="font-family:vazir;">
+                                                            <i class="fal fa-calendar-alt"></i>1 اوت 2023
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </article>
+                                        <article class="blog blog-inline">
+                                            <div class="blog_img">
+                                                <a href="blog-details.html" target="_self" title="Link" class="lazy-container ratio ratio-2-3 radius-sm">
+                                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-6.jpg" alt="Blog Image">
+                                                </a>
+                                            </div>
+                                            <div class="blog_content">
+                                                <h6 class="blog_title font-base lc-2 mb-10" style="font-family:vazir;">
+                                                    <a href="blog-details.html" target="_self" title="Link">
+                                                        شکل تخصصی یادگیری ماشینی که بر شبکه های عصبی با
+                                                    </a>
+                                                </h6>
+                                                <ul class="blog_list list-unstyled">
+                                                    <li class="icon-start font-sm">
+                                                        <a href="blogs.html" target="_self" title="link" style="font-family:vazir;">
+                                                            <i class="fal fa-user-circle"></i>توسط الکس
+                                                        </a>
+                                                    </li>
+                                                    <li class="icon-start font-sm">
+                                                        <a href="blogs.html" target="_self" title="link" style="font-family:vazir;">
+                                                            <i class="fal fa-calendar-alt"></i>4 ژوئن 2023
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Widget categories -->
+                        <div class="widget widget-categories mb-40">
+                            <div class="p-25 radius-lg bg-primary-light">
+                                <h4 class="title" style="font-family:vazir;">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#blogCategory">
+                                        دسته بندی ها
+                                    </button>
+                                </h4>
+                                <div id="blogCategory" class="collapse show">
+                                    <div class="accordion-body mt-20 scroll-y">
+                                        <ul class="list-unstyled m-0">
+                                            <li>
+                                                <a href="blogs.html" target="_self" title="Blogs" class="border p-20 radius-md">
+                                                    <span style="font-family:vazir;">علوم پایه</span>
+                                                    <span class="qty">258</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="blogs.html" target="_self" title="Blogs" class="border p-20 radius-md">
+                                                    <span style="font-family:vazir;">رباتیک</span>
+                                                    <span class="qty">562</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="blogs.html" target="_self" title="Blogs" class="border p-20 radius-md">
+                                                    <span style="font-family:vazir;">فضانورد</span>
+                                                    <span class="qty">125</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="blogs.html" target="_self" title="Blogs" class="border p-20 radius-md">
+                                                    <span style="font-family:vazir;">خودرو</span>
+                                                    <span class="qty">68</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="blogs.html" target="_self" title="Blogs" class="border p-20 radius-md">
+                                                    <span style="font-family:vazir;">بازی</span>
+                                                    <span class="qty">322</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Widget gallery -->
+                        <div class="widget widget-gallery mb-40">
+                            <div class="p-25 radius-lg bg-primary-light">
+                                <h4 class="title" style="font-family:vazir;">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#gallery">
+                                        گالری های برتر
+                                    </button>
+                                    <span class="line"></span>
+                                </h4>
+                                <div id="gallery" class="collapse show">
+                                    <div class="accordion-body mt-20 scroll-y">
+                                        <div class="widget-gallery_img gallery-popup">
+                                            <a href="assets/images/gallery/gallery-18.jpg" target="_self" title="Image" class="radius-md">
+                                                <div class="lazy-container ratio ratio-1-1">
+                                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/gallery/gallery-18.jpg" alt="Image">
+                                                </div>
+                                            </a>
+                                            <a href="assets/images/gallery/gallery-19.jpg" target="_self" title="Image" class="radius-md">
+                                                <div class="lazy-container ratio ratio-1-1">
+                                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/gallery/gallery-19.jpg" alt="Image">
+                                                </div>
+                                            </a>
+                                            <a href="https://www.youtube.com/watch?v=bDJKs6r___g" target="_self" title="Image" class="video-link radius-md">
+                                                <div class="lazy-container ratio ratio-1-1">
+                                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/gallery/gallery-20.jpg" alt="Image">
+                                                </div>
+                                                <span class="icon">
+                                                    <i class="fas fa-play"></i>
+                                                </span>
+                                            </a>
+                                            <a href="assets/images/gallery/gallery-21.jpg" target="_self" title="Image" class="radius-md">
+                                                <div class="lazy-container ratio ratio-1-1">
+                                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/gallery/gallery-21.jpg" alt="Image">
+                                                </div>
+                                            </a>
+                                            <a href="https://www.youtube.com/watch?v=bDJKs6r___g" target="_self" title="Image" class="video-link radius-md">
+                                                <div class="lazy-container ratio ratio-1-1">
+                                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/gallery/gallery-22.jpg" alt="Image">
+                                                </div>
+                                                <span class="icon">
+                                                    <i class="fas fa-play"></i>
+                                                </span>
+                                            </a>
+                                            <a href="assets/images/gallery/gallery-23.jpg" target="_self" title="Image" class="radius-md">
+                                                <div class="lazy-container ratio ratio-1-1">
+                                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/gallery/gallery-23.jpg" alt="Image">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Widget newsletter -->
+                        <div class="widget widget-newsletter mb-40">
+                            <div class="p-25 radius-lg bg-primary-light">
+                                <h4 class="title mb-10" style="font-family:vazir;">
+                                    عضویت در خبرنامه
+                                </h4>
+                                <p class="text" style="font-family:vazir;">
+                                    برای دریافت به روز رسانی و تخفیف ضعیف از Champai در خبرنامه ما مشترک شوید.
+                                </p>
+                                <div class="newsletter-form mt-20">
+                                    <form id="newsletterForm">
+                                        <div class="input-inline rounded-pill bg-white">
+                                            <input class="form-control border-0" placeholder="ایمیل را اینجا وارد کنید..." type="text" name="EMAIL" required="">
+                                            <button class="btn btn-sm btn-primary icon-end rounded-pill" type="button" aria-label="button">
+                                                <span class="d-none d-sm-inline" style="font-family:vazir;">اشتراک در</span>
+                                                <span class="d-inline d-sm-none">
+                                                    <i class="fas fa-paper-plane"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Widget tags -->
+                        <div class="widget widget-tags mb-40">
+                            <div class="p-25 radius-lg bg-primary-light">
+                                <h4 class="title" style="font-family:vazir;">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#blogTags">
+                                        برچسب های مرتبط
+                                    </button>
+                                </h4>
+                                <div id="blogTags" class="collapse show">
+                                    <div class="accordion-body mt-20 scroll-y">
+                                        <div class="tags-group d-flex flex-wrap gap-2">
+                                            <a href="blogs.html" class="px-3 py-2 rounded-pill font-sm" title="Link" target="_self" style="font-family:vazir;">علوم پایه</a>
+                                            <a href="blogs.html" class="px-3 py-2 rounded-pill font-sm" title="Link" target="_self" style="font-family:vazir;">ماشین</a>
+                                            <a href="blogs.html" class="px-3 py-2 rounded-pill font-sm" title="Link" target="_self" style="font-family:vazir;">موشک</a>
+                                            <a href="blogs.html" class="px-3 py-2 rounded-pill font-sm" title="Link" target="_self" style="font-family:vazir;">فنی</a>
+                                            <a href="blogs.html" class="px-3 py-2 rounded-pill font-sm" title="Link" target="_self" style="font-family:vazir;">غذا</a>
+                                            <a href="blogs.html" class="px-3 py-2 rounded-pill font-sm" title="Link" target="_self" style="font-family:vazir;">بازی</a>
+                                            <a href="blogs.html" class="px-3 py-2 rounded-pill font-sm" title="Link" target="_self" style="font-family:vazir;">پزشکی</a>
+                                            <a href="blogs.html" class="px-3 py-2 rounded-pill font-sm" title="Link" target="_self" style="font-family:vazir;">زمین</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Widget banner -->
+                        <div class="widget widget-add-banner mb-40">
+                            <a href="404.html" target="_blank" title="Add Banner">
+                                <img class="lazyload blur-up radius-lg" src="assets/images/placeholder.png" data-src="assets/images/banner/add-banner-1.jpg" alt="Add banner">
+                            </a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog-details-area end -->
+
+    <!-- Footer-area start -->
+    <footer class="footer-area bg-primary-light">
+        <div class="footer-top pt-100 pb-70">
+            <div class="container">
+                <div class="row gx-xl-5 justify-content-between">
+                    <div class="col-xl-4 col-lg-5 col-md-6">
+                        <div class="footer-widget" data-aos="fade-up">
+                            <!-- Logo -->
+                            <div class="logo mb-20">
+                                <a class="navbar-brand" href="index.html" target="_self" title="Link">
+                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/logo/logo-1.png" alt="Brand Logo">
+                                </a>
+                            </div>
+                        <p style="font-family:vazir;">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد
+                        </p>
+                        <div class="btn-groups mt-20">
+                            <a href="404.html" class="btn btn-img size-sm radius-sm" title="App Store" target="_blank">
+                                <img class="lazyload blur-up" src="assets/images/placeholder.png" data-src="assets/images/app-store.png" alt="App Store">
+                            </a>
+                            <a href="404.html" class="btn btn-img size-sm radius-sm" title="Play Store" target="_blank">
+                                <img class="lazyload blur-up" src="assets/images/placeholder.png" data-src="assets/images/play-store.png" alt="App Store">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-6">
+                    <div class="footer-widget" data-aos="fade-up">
+                        <h5 style="font-family:vazir;">لینک های مفید</h5>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="signup.html" target="_self" title="link" style="font-family:vazir;">ثبت</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" target="_self" title="link" style="font-family:vazir;">دانلود برنامه</a>
+                            </li>
+                            <li>
+                                <a href="usecase.html" target="_self" title="link" style="font-family:vazir;">استفاده از مورد</a>
+                            </li>
+                            <li>
+                                <a href="about.html" target="_self" title="link" style="font-family:vazir;">ماموریت ما</a>
+                            </li>
+                            <li>
+                                <a href="404.html" target="_self" title="link" style="font-family:vazir;">سیاست حفظ حریم خصوصی</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-sm-6">
+                    <div class="footer-widget" data-aos="fade-up">
+                        <h5 style="font-family:vazir;">امکانات</h5>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="404.html" target="_self" title="link" style="font-family:vazir;">ویژگی های پولی</a>
+                            </li>
+                            <li>
+                                <a href="404.html" target="_self" title="link" style="font-family:vazir;">فرایند استخدام</a>
+                            </li>
+                            <li>
+                                <a href="404.html" target="_self" title="link" style="font-family:vazir;">چطور کار میکند</a>
+                            </li>
+                            <li>
+                                <a href="404.html" target="_self" title="link" style="font-family:vazir;">فریلنسر</a>
+                            </li>
+                            <li>
+                                <a href="404.html" target="_self" title="link" style="font-family:vazir;">صورتحساب</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="footer-widget" data-aos="fade-up">
+                        <h5 style="font-family:vazir;">مشترک ما شوید</h5>
+                        <p style="font-family:vazir;">
+                            در خبرنامه ما مشترک شوید و به روز باشید. رنگ ها را انتخاب کنید
+                             مسیرها در تجزیه و تحلیل صفحه نمایش
+                        </p>
+                        <form id="newsletterForm">
+                            <div class="input-inline p-1 bg-white rounded-pill">
+                                <input class="form-control border-0" placeholder="ایمیل را اینجا وارد کنید..." type="text" name="EMAIL" required="">
+                                <button class="btn-icon rounded-pill" type="button" aria-label="button">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right-area border-top ptb-30">
+        <div class="container">
+            <div class="copy-right-content">
+                <div class="social-link rounded style-2 justify-content-center mb-10">
+                    <a href="https://www.instagram.com/" target="_blank" title="Link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.dribbble.com/" target="_blank" title="Link"><i class="fab fa-dribbble"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank" title="Link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" title="Link"><i class="fab fa-youtube"></i></a>
+                </div>
+                <span style="font-family:vazir;">
+                    کپی رایت <i class="fal fa-copyright"></i><span id="footerDate"></span> <a href="index.html" target="_self" title="Champai" class="color-primary">Champai</a>. تمامی حقوق محفوظ است
+                </span>
+                </div>
+            </div>
+        </div>
+        <!-- Shapes -->
+        <div class="shape">
+            <svg class="mw-100 shape-1" data-src="assets/images/shape/shape-3.svg" data-unique-ids="disabled" data-cache="disabled" width="105" height="35" viewBox="0 0 105 35" fill="none" xmlns="http://www.w3.org/2000/svg" data-id="svg-loader_2">
+<path d="M5.38349 34.4061V24.2407M10.4662 29.3234H0.300781H10.4662Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M5.38349 10.1654V0M10.4662 5.08271H0.300781H10.4662Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M5.38349 34.4061V24.2407M10.4662 29.3234H0.300781H10.4662Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M5.38349 10.1654V0M10.4662 5.08271H0.300781H10.4662Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M28.8425 34.4061V24.2407M33.9252 29.3234H23.7598H33.9252Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M28.8425 10.1654V0M33.9252 5.08271H23.7598H33.9252Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M28.8425 34.4061V24.2407M33.9252 29.3234H23.7598H33.9252Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M28.8425 10.1654V0M33.9252 5.08271H23.7598H33.9252Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M52.3015 34.4061V24.2407M57.3842 29.3234H47.2188H57.3842Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M52.3015 10.1654V0M57.3842 5.08271H47.2188H57.3842Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M52.3015 34.4061V24.2407M57.3842 29.3234H47.2188H57.3842Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M52.3015 10.1654V0M57.3842 5.08271H47.2188H57.3842Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M75.7595 34.4061V24.2407M80.8422 29.3234H70.6768H80.8422Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M75.7595 10.1654V0M80.8422 5.08271H70.6768H80.8422Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M75.7595 34.4061V24.2407M80.8422 29.3234H70.6768H80.8422Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M75.7595 10.1654V0M80.8422 5.08271H70.6768H80.8422Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M99.2184 34.4061V24.2407M104.301 29.3234H94.1357H104.301Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M99.2184 10.1654V0M104.301 5.08271H94.1357H104.301Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M99.2184 34.4061V24.2407M104.301 29.3234H94.1357H104.301Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M99.2184 10.1654V0M104.301 5.08271H94.1357H104.301Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+</svg>
+            <svg class="mw-100 shape-2" data-src="assets/images/shape/shape-1.svg" data-unique-ids="disabled" data-cache="disabled" width="36" height="20" viewBox="0 0 36 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-id="svg-loader_3">
+<path d="M35 8.29639L29.3347 2.00009L23.6694 8.29639L18.0041 2.00009L12.3388 8.29638L6.6694 2.00009L1 8.29638" stroke="var(--color-primary)" stroke-width="1.5" stroke-miterlimit="10"></path>
+<path d="M35 18.3706L29.3347 12.0743L23.6694 18.3706L18.0041 12.0743L12.3388 18.3706L6.6694 12.0743L1 18.3706" stroke="var(--color-primary)" stroke-width="1.5" stroke-miterlimit="10"></path>
+</svg>
+            <svg class="mw-100 shape-3" data-src="assets/images/shape/shape-8.svg" data-unique-ids="disabled" data-cache="disabled" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-id="svg-loader_4">
+<circle cx="12.7061" cy="12" r="10.75" stroke="var(--color-primary)" stroke-width="2.5"></circle>
+</svg>
+            <svg class="mw-100 shape-4" data-src="assets/images/shape/shape-7.svg" data-unique-ids="disabled" data-cache="disabled" width="48" height="13" viewBox="0 0 48 13" fill="none" xmlns="http://www.w3.org/2000/svg" data-id="svg-loader_5">
+<path d="M0.908203 11.8757L19.856 1" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M9.85547 11.8757L28.8069 1" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M18.8076 11.8757L37.7554 1" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M27.7549 11.8757L46.7063 1" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+</svg>
+        </div>
+    </footer>
+    <!-- Footer-area end-->
+
+    <!-- Go top -->
+    <div class="go-top"><i class="fal fa-long-arrow-up"></i></div>
+
+    <!-- Magic Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Jquery JS -->
+    <script src="assets/js/vendors/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/vendors/bootstrap.min.js"></script>
+    <!-- Counter JS -->
+    <script src="assets/js/vendors/jquery.counterup.min.js"></script>
+    <!-- Nice Select JS -->
+    <script src="assets/js/vendors/jquery.nice-select.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <!-- Swiper Slider JS -->
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <!-- Lazysizes -->
+    <script src="assets/js/vendors/lazysizes.min.js"></script>
+    <!-- SVG Loader -->
+    <script src="assets/js/vendors/svg-loader.min.js"></script>
+    <!-- AOS JS -->
+    <script src="assets/js/vendors/aos.min.js"></script>
+    <!-- Mouse Hover JS -->
+    <script src="assets/js/vendors/mouse-hover-move.js"></script>
+    <!-- Main script JS -->
+    <script src="assets/js/script.js"></script>
+
+
+</body></html>

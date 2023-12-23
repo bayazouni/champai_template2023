@@ -1,0 +1,895 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-+qdLaIRZfNu4cVPK/PxJJEy0B0f3Ugv8i482AKY7gwXwhaCroABd086ybrVKTa0q" crossorigin="anonymous">
+<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Title -->
+    <title  style="font-family:vazir;">Champai - محتوای هوش مصنوعی &amp; قالب HTML مولد تصویر</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/fav.png" type="image/x-icon">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <!-- Fontawesome Icon CSS -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+    <!-- Icomoon Icon CSS -->
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/magnific-popup.min.css">
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css">
+    <!-- Nice Select -->
+    <link rel="stylesheet" href="assets/css/vendors/nice-select.css">
+    <!-- AOS Animation CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/aos.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/animate.min.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class="theme-color-1">
+    <!-- Preloader start -->
+    <div id="preLoader">
+        <div class="loader"></div>
+    </div>
+    <!-- Preloader end -->
+
+    <!-- Header-area start -->
+    <header class="header-area">
+        <!-- Start mobile menu -->
+        <div class="mobile-menu">
+            <div class="container">
+                <div class="mobile-menu-wrapper"></div>
+            </div>
+        </div>
+        <!-- End mobile menu -->
+
+        <div class="main-responsive-nav">
+            <div class="container">
+                <!-- Mobile Logo -->
+                <div class="logo">
+                    <a href="index.html" target="_self" title="Champai">
+                        <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/logo/logo-1.png" alt="Brand Logo">
+                    </a>
+                </div>
+                <!-- Menu toggle button -->
+                <button class="menu-toggler" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="main-navbar">
+            <div class="header-bottom">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="index.html" target="_self" title="Champai">
+                            <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/logo/logo-1.png" alt="Brand Logo">
+                        </a>
+                        <!-- Navigation items -->
+                        <div class="collapse navbar-collapse">
+                            <ul id="mainMenu" class="navbar-nav mobile-item mx-auto">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link toggle">خانه <i class="fal fa-plus"></i></a>
+                                    <ul class="menu-dropdown">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">نمایش خانگی 1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index-2.html">نمایش خانگی 2</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index-3.html">نمایش خانگی 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">درباره</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#blogs" class="nav-link toggle">استفاده از مورد<i class="fal fa-plus"></i></a>
+                                    <ul class="menu-dropdown">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="usecase.html">استفاده از مورد 1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="usecase-2.html">استفاده از مورد 2</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="usecase-details.html">استفاده از جزئیات مورد 1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="usecase-details-2.html">استفاده از جزئیات مورد 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pricing.html">قیمت گذاری</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link toggle" href="#pages">صفحات <i class="fal fa-plus"></i></a>
+                                    <ul class="menu-dropdown">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about.html">درباره</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="testimonial.html">گواهینامه</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="pricing.html">قیمت گذاری</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="faq.html">سوالات متداول</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="login.html">ورود</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="signup.html">ثبت نام</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="404.html">خطای 404</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="coming-soon.html">به زودی</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="terms-conditions.html">شرایط و ضوابط</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#blogs" class="nav-link toggle">وبلاگ<i class="fal fa-plus"></i></a>
+                                    <ul class="menu-dropdown">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blogs.html">وبلاگ ها</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blog-details.html">جزئیات وبلاگ</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">مخاطب</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="more-option mobile-item">
+                            <div class="item">
+                                <div class="language">
+                                    <select class="niceselect">
+                                        <option value="1">انگلیسی</option>
+                                        <option value="2">چینی</option>
+                                        <option value="3">فرانسوی</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <a href="login.html" class="btn btn-md btn-primary rounded-pill icon-end" title="Login" target="_self">
+                                    ورود
+                                    <i class="fal fa-user"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header-area end -->
+
+    <!-- Breadcrumb start -->
+    <div class="breadcrumb-area">
+        <div class="container">
+            <div class="content text-center">
+                <h2  style="font-family:vazir;">از مورد 2 استفاده کنید</h2>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html"  style="font-family:vazir;">خانه</a></li>
+                        <li class="breadcrumb-item active" aria-current="page"  style="font-family:vazir;">از مورد 2 استفاده کنید</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Bottom shape -->
+        <div class="bottom-shape">
+            <div class="bottom-shape">
+                <svg class="mw-100" data-src="assets/images/shape/bottom-shape.svg" data-unique-ids="disabled" data-cache="disabled" viewBox="0 0 1920 94" fill="none" x="0px" y="0px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" data-id="svg-loader_1">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0.260755V94H960H1920V0.260742C1920 32.5243 1894.49 59.0116 1862.24 60.2187L960 94L57.7551 60.2187C25.5142 59.0116 0 32.5243 0 0.260755Z" fill="#D9D9D9"></path>
+    </svg>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb end -->
+
+    <!-- Case-area start -->
+    <section class="case-area case-area_v3 ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title title-center mb-50" data-aos="fade-up">
+                        <div>
+                            <span class="subtitle"  style="font-family:vazir;">
+                                مورد استفاده عالی
+                            </span>
+                            <h2 class="title mt-0"  style="font-family:vazir;">
+                                محبوب ترین مورد استفاده
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12" data-aos="fade-up">
+                    <div class="swiper case-slider" id="case-slider-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card text-center">
+                                    <div class="card_icon radius-lg mb-20">
+                                        <div class="card_icon_inner radius-md mx-auto">
+                                            <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/case/case-5.png" alt="Icon">
+                                        </div>
+                                    </div>
+                                    <h6 class="card_title font-base lc-1 mb-10"  style="font-family:vazir;">
+                                        <a href="usecase-details.html" target="_self" title="Blog Headline">
+                                            عنوان وبلاگ
+                                        </a>
+                                    </h6>
+                                    <a href="usecase-details.html" class="btn-text color-primary" title="Try this now" target="_self"  style="font-family:vazir;">اکنون این را امتحان کنید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card text-center">
+                                    <div class="card_icon radius-lg mb-20">
+                                        <div class="card_icon_inner radius-md mx-auto">
+                                            <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/case/case-6.png" alt="Icon">
+                                        </div>
+                                    </div>
+                                    <h6 class="card_title font-base lc-1 mb-10"  style="font-family:vazir;">
+                                        <a href="usecase-details.html" target="_self" title="Facebook Ads">
+                                            تبلیغات فیس بوک
+                                        </a>
+                                    </h6>
+                                    <a href="usecase-details.html" class="btn-text color-primary" title="Try this now" target="_self"  style="font-family:vazir;">اکنون این را امتحان کنید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card text-center">
+                                    <div class="card_icon radius-lg mb-20">
+                                        <div class="card_icon_inner radius-md mx-auto">
+                                            <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/case/case-7.png" alt="Icon">
+                                        </div>
+                                    </div>
+                                    <h6 class="card_title font-base lc-1 mb-10"  style="font-family:vazir;">
+                                        <a href="usecase-details.html" target="_self" title="Presentation Slide">
+                                            اسلاید ارائه
+                                        </a>
+                                    </h6>
+                                    <a href="usecase-details.html" class="btn-text color-primary" title="Try this now" target="_self"  style="font-family:vazir;">اکنون این را امتحان کنید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card text-center">
+                                    <div class="card_icon radius-lg mb-20">
+                                        <div class="card_icon_inner radius-md mx-auto">
+                                            <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/case/case-8.png" alt="Icon">
+                                        </div>
+                                    </div>
+                                    <h6 class="card_title font-base lc-1 mb-10"  style="font-family:vazir;">
+                                        <a href="usecase-details.html" target="_self" title="CV or Bio Data">
+                                            CV یا Bio Data
+                                        </a>
+                                    </h6>
+                                    <a href="usecase-details.html" class="btn-text color-primary" title="Try this now" target="_self"  style="font-family:vazir;">اکنون این را امتحان کنید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card text-center">
+                                    <div class="card_icon radius-lg mb-20">
+                                        <div class="card_icon_inner radius-md mx-auto">
+                                            <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/case/case-9.png" alt="Icon">
+                                        </div>
+                                    </div>
+                                    <h6 class="card_title font-base lc-1 mb-10"  style="font-family:vazir;">
+                                        <a href="usecase-details.html" target="_self" title="Web Headline">
+                                            عنوان وب
+                                        </a>
+                                    </h6>
+                                    <a href="usecase-details.html" class="btn-text color-primary" title="Try this now" target="_self"  style="font-family:vazir;">اکنون این را امتحان کنید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card text-center">
+                                    <div class="card_icon radius-lg mb-20">
+                                        <div class="card_icon_inner radius-md mx-auto">
+                                            <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/case/case-10.png" alt="Icon">
+                                        </div>
+                                    </div>
+                                    <h6 class="card_title font-base lc-1 mb-10"  style="font-family:vazir;">
+                                        <a href="usecase-details.html" target="_self" title="Video Scrip Text">
+                                            متن فیلمنامه
+                                        </a>
+                                    </h6>
+                                    <a href="usecase-details.html" class="btn-text color-primary" title="Try this now" target="_self"  style="font-family:vazir;">اکنون این را امتحان کنید</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card text-center">
+                                    <div class="card_icon radius-lg mb-20">
+                                        <div class="card_icon_inner radius-md mx-auto">
+                                            <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/case/case-11.png" alt="Icon">
+                                        </div>
+                                    </div>
+                                    <h6 class="card_title font-base lc-1 mb-10"  style="font-family:vazir;">
+                                        <a href="usecase-details.html" target="_self" title="Job Post Ads">
+                                            آگهی های پست شغلی
+                                        </a>
+                                    </h6>
+                                    <a href="usecase-details.html" class="btn-text color-primary" title="Try this now" target="_self"  style="font-family:vazir;">اکنون این را امتحان کنید</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination position-static mt-30" id="case-slider-2-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Case-area end -->
+
+    <!-- About-area start -->
+    <section class="feature-area feature-area_v1 ptb-100 bg-primary-light">
+        <!-- Spacer -->
+        <div class="spacer pt-60 d-none d-sm-block"></div>
+
+        <div class="container">
+            <div class="row align-items-center gx-xl-5">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="content-title">
+                        <span class="subtitle"  style="font-family:vazir;">امکانات</span>
+                        <h2 class="title mt-0 mb-25"  style="font-family:vazir;">
+                            ویژگی های برتر برای تعامل با پلتفرم هوش مصنوعی ما
+                        </h2>
+                        <div class="content-text">
+                            <p  style="font-family:vazir;">
+                                انواع مختلفی از قسمت‌های لورم ایپسوم در دسترس است، اما اکثریت آن‌ها به شکلی دچار تغییراتی شده‌اند، با طنز تزریقی، یا کلمات تصادفی که حتی اندکی هم باورپذیر به نظر نمی‌رسند. اگر می‌خواهید از یک پاساژ Lorem Ipsum استفاده کنید، باید مطمئن شوید که چیزی وجود ندارد.
+                            </p>
+                        </div>
+                        <div class="features-item mt-40">
+                            <div class="card radius-lg">
+                                <div class="card_icon">
+                                    <i class="ico-presentation"></i>
+                                </div>
+                                <div class="card_content p-25">
+                                    <h6 class="card_title lc-1 mb-10"  style="font-family:vazir;">
+                                        <a href="usecase-details.html" target="_self" title="Presentation Head Line">
+                                            خط اصلی ارائه
+                                        </a>
+                                    </h6>
+                                    <p class="card_text lc-2 mb-10"  style="font-family:vazir;">
+                                        نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع را ارائه می دهد، بلکه کیفیت آن را نیز ارائه می دهد
+                                    </p>
+                                    <a href="usecase-details.html" class="btn-text color-primary" title="Try this AI now" target="_self"  style="font-family:vazir;">اکنون این هوش مصنوعی را امتحان کنید</a>
+                                </div>
+                            </div>
+                            <div class="card radius-lg">
+                                <div class="card_icon">
+                                    <i class="ico-cv"></i>
+                                </div>
+                                <div class="card_content p-25">
+                                    <h6 class="card_title lc-1 mb-10" style="font-family:vazir;">
+                                        <a href="usecase-details.html" target="_self" title="Virtual Shopping Assistant">
+                                            دستیار خرید مجازی
+                                        </a>
+                                    </h6>
+                                    <p class="card_text lc-2 mb-10"  style="font-family:vazir;">
+                                        نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع را ارائه می دهد، بلکه کیفیت آن را نیز ارائه می دهد
+                                    </p  style="font-family:vazir;">
+                                    <a href="usecase-details.html" class="btn-text color-primary" title="Try this AI now" target="_self"  style="font-family:vazir;">اکنون این هوش مصنوعی را امتحان کنید</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="features-item mt-25 mt-lg-0">
+                        <div class="card radius-lg">
+                            <div class="card_icon">
+                                <i class="ico-seo"></i>
+                            </div>
+                            <div class="card_content p-25">
+                                <h6 class="card_title lc-1 mb-10"  style="font-family:vazir;">
+                                    <a href="usecase-details.html" target="_self" title="Automated SEO Optimization">
+                                        بهینه سازی خودکار سئو
+                                    </a>
+                                </h6>
+                                <p class="card_text lc-2 mb-10"  style="font-family:vazir;">
+                                    نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع را ارائه می دهد، بلکه کیفیت آن را نیز ارائه می دهد
+                                </p>
+                                <a href="usecase-details.html" class="btn-text color-primary" title="Try this AI now" target="_self"  style="font-family:vazir;">اکنون این هوش مصنوعی را امتحان کنید</a>
+                            </div>
+                        </div>
+                        <div class="card radius-lg">
+                            <div class="card_icon">
+                                <i class="ico-browser"></i>
+                            </div>
+                            <div class="card_content p-25">
+                                <h6 class="card_title lc-1 mb-10"  style="font-family:vazir;">
+                                    <a href="usecase-details.html" target="_self" title="Natural Language Interaction">
+                                        تعامل زبان طبیعی
+                                    </a>
+                                </h6>
+                                <p class="card_text lc-2 mb-10"  style="font-family:vazir;">
+                                    نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع را ارائه می دهد، بلکه کیفیت آن را نیز ارائه می دهد
+                                </p>
+                                <a href="usecase-details.html" class="btn-text color-primary" title="Try this AI now" target="_self"  style="font-family:vazir;">اکنون این هوش مصنوعی را امتحان کنید</a>
+                            </div>
+                        </div>
+                        <div class="card radius-lg">
+                            <div class="card_icon">
+                                <i class="ico-product"></i>
+                            </div>
+                            <div class="card_content p-25">
+                                <h6 class="card_title lc-1 mb-10"  style="font-family:vazir;">
+                                    <a href="usecase-details.html" target="_self" title="eCommerce Products Description">
+                                        تولید محتوای پویا
+                                    </a>
+                                </h6>
+                                <p class="card_text lc-2 mb-10"  style="font-family:vazir;">
+                                    نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع را ارائه می دهد، بلکه کیفیت آن را نیز ارائه می دهد
+                                </p>
+                                <a href="usecase-details.html" class="btn-text color-primary" title="Try this AI now" target="_self"  style="font-family:vazir;">اکنون این هوش مصنوعی را امتحان کنید</a>
+                            </div>
+                        </div>
+                        <div class="card radius-lg">
+                            <div class="card_icon">
+                                <i class="ico-job-offer"></i>
+                            </div>
+                            <div class="card_content p-25">
+                                <h6 class="card_title lc-1 mb-10"  style="font-family:vazir;">
+                                    <a href="usecase-details.html" target="_self" title="Dynamic Content Creation">
+                                        تولید محتوای پویا
+                                    </a>
+                                </h6>
+                                <p class="card_text lc-2 mb-10"  style="font-family:vazir;">
+                                    نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع را ارائه می دهد، بلکه کیفیت آن را نیز ارائه می دهد
+                                </p>
+                                <a href="usecase-details.html" class="btn-text color-primary" title="Try this AI now" target="_self"  style="font-family:vazir;">اکنون این هوش مصنوعی را امتحان کنید</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bg shape -->
+        <div class="bg-shape top-0 h-auto">
+            <svg class="mw-100" data-src="assets/images/shape/section-shape-4.svg" data-unique-ids="disabled" data-cache="disabled" viewBox="0 0 1920 67" fill="none" x="0px" y="0px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" data-id="svg-loader_3">
+    <g>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 -1106.67H1920V-1106.67H1842.67V-1062C1842.67 -1058.69 1845.35 -1056 1848.67 -1056H1920V15.9996H1850C1846.69 15.9996 1844 18.6859 1844 21.9996V66.6663H1772V5.99963C1772 2.68591 1769.31 -0.000366211 1766 -0.000366211H1727.33C1724.02 -0.000366211 1721.33 2.68591 1721.33 5.99963V66.6663H1649.33V35.333C1649.33 32.0193 1646.65 29.333 1643.33 29.333H1602C1598.69 29.333 1596 32.0193 1596 35.333V66.6663H1524V21.9996C1524 18.6859 1521.31 15.9996 1518 15.9996H1436.67C1433.35 15.9996 1430.67 18.6859 1430.67 21.9996V66.6663H1358.67V5.99963C1358.67 2.68591 1355.98 -0.000366211 1352.67 -0.000366211H1314C1310.69 -0.000366211 1308 2.68591 1308 5.99963V66.6663H1236V21.9996C1236 18.6859 1233.31 15.9996 1230 15.9996H1150C1146.69 15.9996 1144 18.6859 1144 21.9996V66.6663H1072V35.333C1072 32.0193 1069.31 29.333 1066 29.333H1024.67C1021.35 29.333 1018.67 32.0193 1018.67 35.333V66.6663H946.667V21.9996C946.667 18.6859 943.98 15.9996 940.667 15.9996H859.333C856.02 15.9996 853.333 18.6859 853.333 21.9996V66.6663H781.333V5.99963C781.333 2.68591 778.647 -0.000366211 775.333 -0.000366211H736.667C733.353 -0.000366211 730.667 2.68591 730.667 5.99963V66.6663H658.667V21.9996C658.667 18.6859 655.98 15.9996 652.667 15.9996H572.667C569.353 15.9996 566.667 18.6859 566.667 21.9996V66.6663H494.667V35.333C494.667 32.0193 491.98 29.333 488.667 29.333H447.333C444.02 29.333 441.333 32.0193 441.333 35.333V66.6663H369.333V21.9996C369.333 18.6859 366.647 15.9996 363.333 15.9996H282C278.686 15.9996 276 18.6859 276 21.9996V66.6663H204V35.333C204 32.0193 201.314 29.333 198 29.333H156.667C153.353 29.333 150.667 32.0193 150.667 35.333V66.6663H78.6666L78.6666 21.9996C78.6666 18.6859 75.9803 15.9996 72.6666 15.9996H0V-1056H71.3333C74.647 -1056 77.3333 -1058.69 77.3333 -1062V-1106.67H0V-1106.67ZM777.333 -1106.67H685.333V-1062C685.333 -1058.69 688.02 -1056 691.333 -1056H771.333C774.647 -1056 777.333 -1058.69 777.333 -1062V-1106.67ZM1262.67 -1106.67H1354.67V-1062C1354.67 -1058.69 1351.98 -1056 1348.67 -1056H1268.67C1265.35 -1056 1262.67 -1058.69 1262.67 -1062V-1106.67ZM490.667 -1106.67H397.333V-1062C397.333 -1058.69 400.02 -1056 403.333 -1056H484.667C487.98 -1056 490.667 -1058.69 490.667 -1062V-1106.67ZM974.667 -1106.67H1068V-1062C1068 -1058.69 1065.31 -1056 1062 -1056H980.667C977.353 -1056 974.667 -1058.69 974.667 -1062V-1106.67ZM1552 -1106.67H1645.33V-1062C1645.33 -1058.69 1642.65 -1056 1639.33 -1056H1558C1554.69 -1056 1552 -1058.69 1552 -1062V-1106.67ZM149.333 -1046C149.333 -1042.69 152.02 -1040 155.333 -1040L194 -1040C197.314 -1040 200 -1042.69 200 -1046L200 -1106.67L149.333 -1106.67L149.333 -1046ZM568.667 -1040C565.353 -1040 562.667 -1042.69 562.667 -1046V-1106.67L613.333 -1106.67V-1046C613.333 -1042.69 610.647 -1040 607.333 -1040L568.667 -1040ZM1140 -1046C1140 -1042.69 1142.69 -1040 1146 -1040L1184.67 -1040C1187.98 -1040 1190.67 -1042.69 1190.67 -1046V-1106.67L1140 -1106.67V-1046ZM278 -1069.33C274.686 -1069.33 272 -1072.02 272 -1075.33V-1106.67L325.333 -1106.67V-1075.33C325.333 -1072.02 322.647 -1069.33 319.333 -1069.33H278ZM849.333 -1075.33C849.333 -1072.02 852.02 -1069.33 855.333 -1069.33H896.667C899.98 -1069.33 902.667 -1072.02 902.667 -1075.33V-1106.67L849.333 -1106.67V-1075.33ZM1723.33 -1069.33C1720.02 -1069.33 1717.33 -1072.02 1717.33 -1075.33V-1106.67L1770.67 -1106.67V-1075.33C1770.67 -1072.02 1767.98 -1069.33 1764.67 -1069.33H1723.33ZM1426.67 -1075.33C1426.67 -1072.02 1429.35 -1069.33 1432.67 -1069.33H1474C1477.31 -1069.33 1480 -1072.02 1480 -1075.33V-1106.67L1426.67 -1106.67V-1075.33Z" fill="white"></path>
+    </g>
+</svg>
+        </div>
+        <!-- Bg shape -->
+        <div class="bg-shape h-auto">
+            <svg class="mw-100" data-src="assets/images/shape/section-shape-5.svg" data-unique-ids="disabled" data-cache="disabled" viewBox="0 0 1920 67" fill="none" x="0px" y="0px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" data-id="svg-loader_4">
+    <g>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1173.67H1920V1173.67H1842.67V1129C1842.67 1125.69 1845.35 1123 1848.67 1123H1920V51.0004H1850C1846.69 51.0004 1844 48.3141 1844 45.0004V0.33374H1772V61.0004C1772 64.3141 1769.31 67.0004 1766 67.0004H1727.33C1724.02 67.0004 1721.33 64.3141 1721.33 61.0004V0.33374H1649.33V31.667C1649.33 34.9807 1646.65 37.667 1643.33 37.667H1602C1598.69 37.667 1596 34.9807 1596 31.667V0.33374H1524V45.0004C1524 48.3141 1521.31 51.0004 1518 51.0004H1436.67C1433.35 51.0004 1430.67 48.3141 1430.67 45.0004V0.33374H1358.67V61.0004C1358.67 64.3141 1355.98 67.0004 1352.67 67.0004H1314C1310.69 67.0004 1308 64.3141 1308 61.0004V0.33374H1236V45.0004C1236 48.3141 1233.31 51.0004 1230 51.0004H1150C1146.69 51.0004 1144 48.3141 1144 45.0004V0.33374H1072V31.667C1072 34.9807 1069.31 37.667 1066 37.667H1024.67C1021.35 37.667 1018.67 34.9807 1018.67 31.667V0.33374H946.667V45.0004C946.667 48.3141 943.98 51.0004 940.667 51.0004H859.333C856.02 51.0004 853.333 48.3141 853.333 45.0004V0.33374H781.333V61.0004C781.333 64.3141 778.647 67.0004 775.333 67.0004H736.667C733.353 67.0004 730.667 64.3141 730.667 61.0004V0.33374H658.667V45.0004C658.667 48.3141 655.98 51.0004 652.667 51.0004H572.667C569.353 51.0004 566.667 48.3141 566.667 45.0004V0.33374H494.667V31.667C494.667 34.9807 491.98 37.667 488.667 37.667H447.333C444.02 37.667 441.333 34.9807 441.333 31.667V0.33374H369.333V45.0004C369.333 48.3141 366.647 51.0004 363.333 51.0004H282C278.686 51.0004 276 48.3141 276 45.0004V0.33374H204V31.667C204 34.9807 201.314 37.667 198 37.667H156.667C153.353 37.667 150.667 34.9807 150.667 31.667V0.33374H78.6666L78.6666 45.0004C78.6666 48.3141 75.9803 51.0004 72.6666 51.0004H0V1123H71.3333C74.647 1123 77.3333 1125.69 77.3333 1129V1173.67H0V1173.67ZM777.333 1173.67H685.333V1129C685.333 1125.69 688.02 1123 691.333 1123H771.333C774.647 1123 777.333 1125.69 777.333 1129V1173.67ZM1262.67 1173.67H1354.67V1129C1354.67 1125.69 1351.98 1123 1348.67 1123H1268.67C1265.35 1123 1262.67 1125.69 1262.67 1129V1173.67ZM490.667 1173.67H397.333V1129C397.333 1125.69 400.02 1123 403.333 1123H484.667C487.98 1123 490.667 1125.69 490.667 1129V1173.67ZM974.667 1173.67H1068V1129C1068 1125.69 1065.31 1123 1062 1123H980.667C977.353 1123 974.667 1125.69 974.667 1129V1173.67ZM1552 1173.67H1645.33V1129C1645.33 1125.69 1642.65 1123 1639.33 1123H1558C1554.69 1123 1552 1125.69 1552 1129V1173.67ZM149.333 1113C149.333 1109.69 152.02 1107 155.333 1107L194 1107C197.314 1107 200 1109.69 200 1113L200 1173.67L149.333 1173.67L149.333 1113ZM568.667 1107C565.353 1107 562.667 1109.69 562.667 1113V1173.67L613.333 1173.67V1113C613.333 1109.69 610.647 1107 607.333 1107L568.667 1107ZM1140 1113C1140 1109.69 1142.69 1107 1146 1107L1184.67 1107C1187.98 1107 1190.67 1109.69 1190.67 1113V1173.67L1140 1173.67V1113ZM278 1136.33C274.686 1136.33 272 1139.02 272 1142.33V1173.67L325.333 1173.67V1142.33C325.333 1139.02 322.647 1136.33 319.333 1136.33H278ZM849.333 1142.33C849.333 1139.02 852.02 1136.33 855.333 1136.33H896.667C899.98 1136.33 902.667 1139.02 902.667 1142.33V1173.67L849.333 1173.67V1142.33ZM1723.33 1136.33C1720.02 1136.33 1717.33 1139.02 1717.33 1142.33V1173.67L1770.67 1173.67V1142.33C1770.67 1139.02 1767.98 1136.33 1764.67 1136.33H1723.33ZM1426.67 1142.33C1426.67 1139.02 1429.35 1136.33 1432.67 1136.33H1474C1477.31 1136.33 1480 1139.02 1480 1142.33V1173.67L1426.67 1173.67V1142.33Z" fill="white"></path>
+    </g>
+</svg>
+        </div>
+
+        <!-- Spacer -->
+        <div class="spacer pb-60 d-none d-sm-block"></div>
+    </section>
+    <!-- About-area end -->
+
+    <!-- Faq-area start -->
+    <section class="faq-area pt-100 pb-75">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title title-center mb-50" data-aos="fade-up">
+                        <span class="subtitle" style="font-family:vazir;">سوالات متداول</span>
+                        <h2 class="title mw-100 mt-0" style="font-family:vazir;">
+                            سوالات متداول
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="accordion" id="faqAccordion" data-aos="fade-up">
+                        <div class="row">
+                            <div class="col-xl-4 col-md-12">
+                                <div class="accordion-item mb-25 border radius-md">
+                                    <h6 class="accordion-header font-base" id="heading1" style="font-family:vazir;">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" >
+                                            چگونه می توانم یک حساب کاربری رایگان درخواست کنم؟
+                                        </button>
+                                    </h6>
+                                    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="font-family:vazir;">
+                                                نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع ارائه می دهد، بلکه کیفیت محتوای تولید شده نیز مدل است
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-25 border radius-md">
+                                    <h6 class="accordion-header font-base" id="heading2" style="font-family:vazir;">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true">
+                                            چگونه این ابزار هوش مصنوعی با برنامه یکپارچه می شود؟
+                                        </button>
+                                    </h6>
+                                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="font-family:vazir;">نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع ارائه می دهد، بلکه کیفیت محتوای تولید شده نیز مدل است</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-12">
+                                <div class="accordion-item mb-25 border radius-md">
+                                    <h6 class="accordion-header font-base" id="heading3" style="font-family:vazir;">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true">
+                                            آیا می توانم نتیجه متن هوش مصنوعی را به اشتراک بگذارم یا ذخیره کنم؟
+                                        </button>
+                                    </h6>
+                                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="font-family:vazir;">نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع ارائه می دهد، بلکه کیفیت محتوای تولید شده نیز مدل است</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-25 border radius-md">
+                                    <h6 class="accordion-header font-base" id="heading4" style="font-family:vazir;">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true">
+                                            چگونه می توانم با هوش مصنوعی تصویر تولید کنم؟
+                                        </button>
+                                    </h6>
+                                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="font-family:vazir;">نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع ارائه می دهد، بلکه کیفیت محتوای تولید شده نیز مدل است</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-25 border radius-md">
+                                    <h6 class="accordion-header font-base" id="heading5" style="font-family:vazir;">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true">
+                                            چگونه ابزارهای هوش مصنوعی به درستی عمل می کنند؟
+                                        </button>
+                                    </h6>
+                                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="font-family:vazir;">نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع ارائه می دهد، بلکه کیفیت محتوای تولید شده نیز مدل است</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-12">
+                                <div class="accordion-item mb-25 border radius-md">
+                                    <h6 class="accordion-header font-base" id="heading6" style="font-family:vazir;">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true">
+                                            مزایای ابزارهای هوش مصنوعی چیست؟
+                                        </button>
+                                    </h6>
+                                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="font-family:vazir;">نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع ارائه می دهد، بلکه کیفیت محتوای تولید شده نیز مدل است</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-25 border radius-md">
+                                    <h6 class="accordion-header font-base" id="heading7" style="font-family:vazir;">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="true">
+                                            مزایای ابزارهای هوش مصنوعی چیست؟
+                                        </button>
+                                    </h6>
+                                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="font-family:vazir;">نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع ارائه می دهد، بلکه کیفیت محتوای تولید شده نیز مدل است</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-25 border radius-md">
+                                    <h6 class="accordion-header font-base" id="heading8" style="font-family:vazir;">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="true">
+                                            چگونه ابزارهای هوش مصنوعی به درستی عمل می کنند؟
+                                        </button>
+                                    </h6>
+                                    <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <p style="font-family:vazir;">نه تنها خدمات تولید محتوای هوش مصنوعی نتایج سریع ارائه می دهد، بلکه کیفیت محتوای تولید شده نیز مدل است</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Faq-area end -->
+
+    <!-- Blog-area start -->
+    <section class="blog-area blog-area_v3 pb-70">
+        <div class="container">
+            <div class="section-title title-inline mb-50" data-aos="fade-up">
+                <h2 class="title" style="font-family:vazir;">
+                    پست های وبلاگ ما را بخوانید
+                </h2>
+                <a href="blogs.html" class="btn btn-lg btn-primary radius-sm" title="Read All Post" target="_self" style="font-family:vazir;">همه پست ها را بخوانید</a>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xl-4" data-aos="fade-up">
+                    <article class="card mb-30">
+                        <div class="card_img mb-25">
+                            <a href="blog-details.html" target="_self" title="Link" class="lazy-container ratio ratio-2-3 radius-lg">
+                                <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-1.jpg" alt="Blog Image">
+                            </a>
+                        </div>
+                        <div class="card_content">
+                            <h5 class="card_title lc-2 mb-15" style="font-family:vazir;">
+                                <a href="blog-details.html" target="_self" title="Link">
+                                    چگونه می توان به یک فریلنسر واقعاً موفق آموزش راهنمای گام به گام تبدیل شد
+                                </a>
+                            </h5>
+                            <p class="card_text lc-2" style="font-family:vazir;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                            </p>
+                            <div class="cta-btn mt-15">
+                                <a href="blogs.html" class="btn-text color-primary" target="_self" title="Read More" style="font-family:vazir;">بیشتر بخوانید</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-4" data-aos="fade-up">
+                    <article class="card mb-30">
+                        <div class="card_img mb-25">
+                            <a href="blog-details.html" target="_self" title="Link" class="lazy-container ratio ratio-2-3 radius-lg">
+                                <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-2.jpg" alt="Blog Image">
+                            </a>
+                        </div>
+                        <div class="card_content">
+                            <h5 class="card_title lc-2 mb-15" style="font-family:vazir;">
+                                <a href="blog-details.html" target="_self" title="Link">
+                                    بهترین ایده در مورد تجارت رویایی خود را برای رشد سریع بدانید
+                                </a>
+                            </h5>
+                            <p class="card_text lc-2" style="font-family:vazir;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                            <div class="cta-btn mt-15">
+                                <a href="blogs.html" class="btn-text color-primary" target="_self" title="Read More" style="font-family:vazir;">بیشتر بخوانید</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-4" data-aos="fade-up">
+                    <article class="card mb-30">
+                        <div class="card_img mb-25">
+                            <a href="blog-details.html" target="_self" title="Link" class="lazy-container ratio ratio-2-3 radius-lg">
+                                <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/blog/blog-3.jpg" alt="Blog Image">
+                            </a>
+                        </div>
+                        <div class="card_content">
+                            <h5 class="card_title lc-2 mb-15" style="font-family:vazir;">
+                                <a href="blog-details.html" target="_self" title="Link">
+                                    سطح کسب و کار بعدی خود را از طریق بازار Freelancer خودمان طی کنید
+                                </a>
+                            </h5>
+                            <p class="card_text lc-2" style="font-family:vazir;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                            </p>
+                            <div class="cta-btn mt-15">
+                                <a href="blogs.html" class="btn-text color-primary" target="_self" title="Read More" style="font-family:vazir;">بیشتر بخوانید</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog-area end -->
+
+    <!-- Footer-area start -->
+    <footer class="footer-area bg-primary-light">
+        <div class="footer-top pt-100 pb-70">
+            <div class="container">
+                <div class="row gx-xl-5 justify-content-between">
+                    <div class="col-xl-4 col-lg-5 col-md-6">
+                        <div class="footer-widget" data-aos="fade-up">
+                            <!-- Logo -->
+                            <div class="logo mb-20">
+                                <a class="navbar-brand" href="index.html" target="_self" title="Link">
+                                    <img class="lazyload" src="assets/images/placeholder.png" data-src="assets/images/logo/logo-1.png" alt="Brand Logo">
+                                </a>
+                            </div>
+                            <p style="font-family:vazir;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد
+                            </p>
+                            <div class="btn-groups mt-20">
+                                <a href="404.html" class="btn btn-img size-sm radius-sm" title="App Store" target="_blank">
+                                    <img class="lazyload blur-up" src="assets/images/placeholder.png" data-src="assets/images/app-store.png" alt="App Store">
+                                </a>
+                                <a href="404.html" class="btn btn-img size-sm radius-sm" title="Play Store" target="_blank">
+                                    <img class="lazyload blur-up" src="assets/images/placeholder.png" data-src="assets/images/play-store.png" alt="App Store">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-6">
+                        <div class="footer-widget" data-aos="fade-up">
+                            <h5 style="font-family:vazir;">لینک های مفید</h5>
+                            <ul class="footer-links">
+                                <li>
+                                    <a href="signup.html" target="_self" title="link" style="font-family:vazir;">ثبت</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html" target="_self" title="link" style="font-family:vazir;">دانلود برنامه</a>
+                                </li>
+                                <li>
+                                    <a href="usecase.html" target="_self" title="link" style="font-family:vazir;">استفاده از مورد</a>
+                                </li>
+                                <li>
+                                    <a href="about.html" target="_self" title="link" style="font-family:vazir;">ماموریت ما</a>
+                                </li>
+                                <li>
+                                    <a href="404.html" target="_self" title="link" style="font-family:vazir;">سیاست حفظ حریم خصوصی</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-6">
+                        <div class="footer-widget" data-aos="fade-up">
+                            <h5 style="font-family:vazir;">امکانات</h5>
+                            <ul class="footer-links">
+                                <li>
+                                    <a href="404.html" target="_self" title="link" style="font-family:vazir;">ویژگی های پولی</a>
+                                </li>
+                                <li>
+                                    <a href="404.html" target="_self" title="link" style="font-family:vazir;">فرایند استخدام</a>
+                                </li>
+                                <li>
+                                    <a href="404.html" target="_self" title="link" style="font-family:vazir;">چطور کار میکند</a>
+                                </li>
+                                <li>
+                                    <a href="404.html" target="_self" title="link" style="font-family:vazir;">فریلنسر</a>
+                                </li>
+                                <li>
+                                    <a href="404.html" target="_self" title="link" style="font-family:vazir;">صورتحساب</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="footer-widget" data-aos="fade-up">
+                            <h5 style="font-family:vazir;">مشترک ما شوید</h5>
+                            <p style="font-family:vazir;">
+                                در خبرنامه ما مشترک شوید و به روز باشید. رنگ ها را انتخاب کنید
+                                 مسیرها در تجزیه و تحلیل صفحه نمایش
+                            </p>
+                            <form id="newsletterForm">
+                                <div class="input-inline p-1 bg-white rounded-pill">
+                                    <input class="form-control border-0" placeholder="ایمیل را اینجا وارد کنید..." type="text" name="EMAIL" required="">
+                                    <button class="btn-icon rounded-pill" type="button" aria-label="button">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right-area border-top ptb-30">
+            <div class="container">
+                <div class="copy-right-content">
+                    <div class="social-link rounded style-2 justify-content-center mb-10">
+                        <a href="https://www.instagram.com/" target="_blank" title="Link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.dribbble.com/" target="_blank" title="Link"><i class="fab fa-dribbble"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank" title="Link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" title="Link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <span style="font-family:vazir;">
+                        کپی رایت <i class="fal fa-copyright"></i><span id="footerDate"></span> <a href="index.html" target="_self" title="Champai" class="color-primary">Champai</a>. تمامی حقوق محفوظ است
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- Shapes -->
+        <div class="shape">
+            <svg class="mw-100 shape-1" data-src="assets/images/shape/shape-3.svg" data-unique-ids="disabled" data-cache="disabled" width="105" height="35" viewBox="0 0 105 35" fill="none" xmlns="http://www.w3.org/2000/svg" data-id="svg-loader_2">
+<path d="M5.38349 34.4061V24.2407M10.4662 29.3234H0.300781H10.4662Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M5.38349 10.1654V0M10.4662 5.08271H0.300781H10.4662Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M5.38349 34.4061V24.2407M10.4662 29.3234H0.300781H10.4662Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M5.38349 10.1654V0M10.4662 5.08271H0.300781H10.4662Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M28.8425 34.4061V24.2407M33.9252 29.3234H23.7598H33.9252Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M28.8425 10.1654V0M33.9252 5.08271H23.7598H33.9252Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M28.8425 34.4061V24.2407M33.9252 29.3234H23.7598H33.9252Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M28.8425 10.1654V0M33.9252 5.08271H23.7598H33.9252Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M52.3015 34.4061V24.2407M57.3842 29.3234H47.2188H57.3842Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M52.3015 10.1654V0M57.3842 5.08271H47.2188H57.3842Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M52.3015 34.4061V24.2407M57.3842 29.3234H47.2188H57.3842Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M52.3015 10.1654V0M57.3842 5.08271H47.2188H57.3842Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M75.7595 34.4061V24.2407M80.8422 29.3234H70.6768H80.8422Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M75.7595 10.1654V0M80.8422 5.08271H70.6768H80.8422Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M75.7595 34.4061V24.2407M80.8422 29.3234H70.6768H80.8422Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M75.7595 10.1654V0M80.8422 5.08271H70.6768H80.8422Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M99.2184 34.4061V24.2407M104.301 29.3234H94.1357H104.301Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M99.2184 10.1654V0M104.301 5.08271H94.1357H104.301Z" stroke="var(--color-primary)" stroke-miterlimit="10"></path>
+<path d="M99.2184 34.4061V24.2407M104.301 29.3234H94.1357H104.301Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M99.2184 10.1654V0M104.301 5.08271H94.1357H104.301Z" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+</svg>
+            <svg class="mw-100 shape-2" data-src="assets/images/shape/shape-1.svg" data-unique-ids="disabled" data-cache="disabled" width="36" height="20" viewBox="0 0 36 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-id="svg-loader_3">
+<path d="M35 8.29639L29.3347 2.00009L23.6694 8.29639L18.0041 2.00009L12.3388 8.29638L6.6694 2.00009L1 8.29638" stroke="var(--color-primary)" stroke-width="1.5" stroke-miterlimit="10"></path>
+<path d="M35 18.3706L29.3347 12.0743L23.6694 18.3706L18.0041 12.0743L12.3388 18.3706L6.6694 12.0743L1 18.3706" stroke="var(--color-primary)" stroke-width="1.5" stroke-miterlimit="10"></path>
+</svg>
+            <svg class="mw-100 shape-3" data-src="assets/images/shape/shape-8.svg" data-unique-ids="disabled" data-cache="disabled" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-id="svg-loader_4">
+<circle cx="12.7061" cy="12" r="10.75" stroke="var(--color-primary)" stroke-width="2.5"></circle>
+</svg>
+            <svg class="mw-100 shape-4" data-src="assets/images/shape/shape-7.svg" data-unique-ids="disabled" data-cache="disabled" width="48" height="13" viewBox="0 0 48 13" fill="none" xmlns="http://www.w3.org/2000/svg" data-id="svg-loader_5">
+<path d="M0.908203 11.8757L19.856 1" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M9.85547 11.8757L28.8069 1" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M18.8076 11.8757L37.7554 1" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+<path d="M27.7549 11.8757L46.7063 1" stroke="var(--color-primary)" stroke-width="2" stroke-miterlimit="10"></path>
+</svg>
+        </div>
+    </footer>
+    <!-- Footer-area end-->
+
+    <!-- Go top -->
+    <div class="go-top"><i class="fal fa-long-arrow-up"></i></div>
+
+    <!-- Magic Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Jquery JS -->
+    <script src="assets/js/vendors/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/vendors/bootstrap.min.js"></script>
+    <!-- Counter JS -->
+    <script src="assets/js/vendors/jquery.counterup.min.js"></script>
+    <!-- Nice Select JS -->
+    <script src="assets/js/vendors/jquery.nice-select.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <!-- Swiper Slider JS -->
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <!-- Lazysizes -->
+    <script src="assets/js/vendors/lazysizes.min.js"></script>
+    <!-- SVG Loader -->
+    <script src="assets/js/vendors/svg-loader.min.js"></script>
+    <!-- AOS JS -->
+    <script src="assets/js/vendors/aos.min.js"></script>
+    <!-- Mouse Hover JS -->
+    <script src="assets/js/vendors/mouse-hover-move.js"></script>
+    <!-- Main script JS -->
+    <script src="assets/js/script.js"></script>
+
+
+</body></html>
